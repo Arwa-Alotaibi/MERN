@@ -1,13 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 
-import FormValidation from './Component/FormValidation';
+import    Reduce from './Component/Reduce';
 
 function App() {
   return (
     <div className="App">
-      <FormValidation/>
-
+      <Reduce/>
     </div>
   );
 }
