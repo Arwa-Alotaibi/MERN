@@ -21,6 +21,8 @@ const MessageForm = (props) => {
                 onChange={(e) => setMsg(e.target.value)} value={msg} ></textarea>
             <input type="submit" value="Send Message" />
         </form>
+
+        
     );
 };
 
