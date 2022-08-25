@@ -12,7 +12,7 @@ const HookForm=(props)=>{
         event.preventDefault();
 
         const newUser = { FirstName, LastName, Email,Password, ConfirmPassword};
-        console.log("Hellp", newUser);
+        console.log("Hello", newUser);
 
     }
     return(
