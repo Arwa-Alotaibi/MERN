@@ -19,6 +19,7 @@ function fiveHeads() {
             if(attempts >= 100){
                 reject(' you took more than 100')
             }
+            
         }
         resolve(`It took ${attempts} tries to flip five "heads :)"`);
 
