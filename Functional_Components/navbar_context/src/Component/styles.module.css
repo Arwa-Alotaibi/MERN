@@ -1,0 +1,35 @@
+
+
+.nav {
+    background-Color: rgb(118, 84, 154);
+    display: flex;
+    color:white;
+    padding: 20px;
+    justify-content: flex-end;
+    
+
+}
+
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+
+  input[type=text]{
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+ 
