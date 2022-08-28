@@ -126,7 +126,7 @@
 
 // find a pokemon with an id of 15.
 
-GET : https://pokeapi.co/api/v2/pokemon/15
+5-GET : https://pokeapi.co/api/v2/pokemon/15
  "id": 15,
     "is_default": true,
     "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/15/encounters",
