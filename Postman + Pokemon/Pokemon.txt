@@ -1,0 +1,150 @@
+
+//Make 5 different GET requests to retrieve 5 different pokemon
+
+
+// find a pokemon with an id of 22.
+
+1- GET :https://pokeapi.co/api/v2/pokemon/22
+"id": 22,
+    "is_default": true,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/22/encounters",
+    "moves": [
+        {
+            "move": {
+                "name": "razor-wind",
+                "url": "https://pokeapi.co/api/v2/move/13/"
+            },
+            "version_group_details": [
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "red-blue",
+                        "url": "https://pokeapi.co/api/v2/version-group/1/"
+                    }
+                },
+
+
+// find a pokemon with an id of 25.
+
+2-GET :https://pokeapi.co/api/v2/pokemon/25
+
+"id": 25,
+    "is_default": true,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/25/encounters",
+    "moves": [
+        {
+            "move": {
+                "name": "mega-punch",
+                "url": "https://pokeapi.co/api/v2/move/5/"
+            },
+            "version_group_details": [
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "red-blue",
+                        "url": "https://pokeapi.co/api/v2/version-group/1/"
+                    }
+                },
+
+
+
+
+// find a pokemon with an id of 30.
+3- GET:https://pokeapi.co/api/v2/pokemon/30
+"height": 8,
+    "held_items": [],
+    "id": 30,
+    "is_default": true,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/30/encounters",
+    "moves": [
+        {
+            "move": {
+                "name": "scratch",
+                "url": "https://pokeapi.co/api/v2/move/10/"
+            },
+            "version_group_details": [
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "red-blue",
+                        "url": "https://pokeapi.co/api/v2/version-group/1/"
+                    }
+                },
+                {
+                    "level_learned_at": 8,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "red-blue",
+                        "url": "https://pokeapi.co/api/v2/version-group/1/"
+                    }
+                },
+
+
+// find a pokemon with an id of 70.
+
+4-GET:https://pokeapi.co/api/v2/pokemon/70
+
+"height": 10,
+    "held_items": [],
+    "id": 70,
+    "is_default": true,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/70/encounters",
+    "moves": [
+        {
+            "move": {
+                "name": "swords-dance",
+                "url": "https://pokeapi.co/api/v2/move/14/"
+            },
+            "version_group_details": [
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "red-blue",
+                        "url": "https://pokeapi.co/api/v2/version-group/1/"
+                    }
+                },
+
+
+// find a pokemon with an id of 15.
+
+GET : https://pokeapi.co/api/v2/pokemon/15
+ "id": 15,
+    "is_default": true,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/15/encounters",
+    "moves": [
+        {
+            "move": {
+                "name": "swords-dance",
+                "url": "https://pokeapi.co/api/v2/move/14/"
+            },
+            "version_group_details": [
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "red-blue",
+                        "url": "https://pokeapi.co/api/v2/version-group/1/"
+                    }
+                },
