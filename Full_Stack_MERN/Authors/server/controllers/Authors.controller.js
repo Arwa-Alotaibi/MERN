@@ -7,7 +7,7 @@ module.exports.createauthor=(req,res)=>{
     const{name} = req.body;
     Authors.create({name})
     .then(createauthor => res.json({author :createauthor}))
-    .catch(err => res.json(err));
+    .catch(err => response.status(400).json(err))
 
 }
 
@@ -32,7 +32,7 @@ module.exports.GetAuthor=(req,res)=>{
 module.exports.UpdateAuthor=(req,res)=>{
     Authors.findOneAndUpdate({_id: req.params.id}, req.body, {new:true})
     .then(UpdateProduct => res.json({ author: UpdateProduct }))
-    .catch(err => res.json(err))
+    .catch(err => response.status(400).json(err))
 }
 
 // delete author
